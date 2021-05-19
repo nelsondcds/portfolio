@@ -1,7 +1,6 @@
 # HTML + CSS
 
 In this activity, you will use CSS to add style to the portfolio.
-
 ## Instructions
 
 * Open the [index.html](Unsolved/index.html) file and examine the HTML elements.
