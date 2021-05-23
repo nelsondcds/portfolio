@@ -15,16 +15,16 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+header h1 { /* As the only instance of an "h1" tag occurs within the "header" tag, this selector could simply be "h1" */
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 span {
+header h1 span { /* As the only instance of a "span" tag occurs within the "header" "h1" tags, this selector could simply be "span" */
     color: #d9dcd6;
 }
 
-header nav {
+header nav { /* As the only instance of a "nav" tag occurs within the "header" tag, this selector could simply be "nav" */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,16 +32,16 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+header nav ul { /* As the only instances of "ul" tags occur within the "header" "nav" tags, this selector could simply be "ul" */
     list-style-type: none;
 }
 
-header nav ul li {
+header nav ul li { /* As the only instances of "li" tags occur within the "header" "nav" "ul" tags, this selector could simply be "li" */
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+header nav ul li a { /* As the only instances of "a" tags occur within the "header" "nav" "ul" "li" tags, this selector could simply be "a" */
     color: #ffffff;
     text-decoration: none;
 }
@@ -70,7 +70,7 @@ a {
     color: #ffffff;
 }
 
-.content img {
+.content div img {
     max-height: 200px;
 }
 
@@ -84,12 +84,12 @@ a {
     margin-left: 25px;
 }
 
-.content h2 {
+.content div h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-p {
+p { /* All instances of "p" tags currently utilize the same font-size for styling, and as such, are consolidated here */
     font-size: 16px;
 }
 
@@ -109,7 +109,7 @@ p {
     color: #ffffff;
 }
 
-.benefits div h3 {
+.benefits div h3 { /* As the only instances of "h3" tags occur within the .benefits-class div tags, this selector could simply be "h3" */
     margin-bottom: 10px;
     text-align: center;
 }
