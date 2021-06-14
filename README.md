@@ -4,6 +4,8 @@ This repository contains my submission for the Advanced CSS Challenge: Professio
 
 The active page for my submission can be found here:
 
-https://github.com/nelsondcds/portfolio
+https://nelsondcds.github.io/portfolio/
 
 A screenshot of my submission is provided below:
+
+![portfolio Screenshot](./assets/images/screenshot.png?raw=true "portfolio Screenshot")
