@@ -40,7 +40,7 @@ body {
     border-left: 3px solid;
     border-color: var(--secondary-color);
     padding: 10px 20px;
-    margin: auto 0;
+    margin: auto;
 }
 
 header {
@@ -135,6 +135,10 @@ section {
 
 .work a {
     text-decoration: none;
+}
+
+.big-a {
+    margin: 0 auto 20px auto;
 }
 
 .big-work {
